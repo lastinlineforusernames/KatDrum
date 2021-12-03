@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Drumpad extends React.Component {
+class DrumPad extends React.Component {
     constructor(props) {
       super(props);
       this.state = {
@@ -39,4 +39,4 @@ class Drumpad extends React.Component {
   }
 }
 
-export default Drumpad
+export default DrumPad

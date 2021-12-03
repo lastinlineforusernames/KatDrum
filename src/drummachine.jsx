@@ -1,6 +1,6 @@
 import React from 'react';
-import Drumpad from './drumpad'
-import {audioFiles} from './App';
+import DrumPad from './drumpad'
+import {audioFiles} from './audiofiles';
 
 class DrumMachine extends React.Component {
     constructor(props) {
@@ -19,7 +19,7 @@ class DrumMachine extends React.Component {
   }
   render() {
       const drumPads = this.state.padArray.map(element => {
-          return <Drumpad 
+          return <DrumPad 
               audioSource={audioFiles[audioFiles.findIndex(e => e.id === element)].url} 
               name={audioFiles[audioFiles.findIndex(e => e.id === element)].name}
               keyIndex={audioFiles.findIndex(e => e.id === element)} 
@@ -33,7 +33,7 @@ class DrumMachine extends React.Component {
               </div>
               <div key="title" className="title" id="title">katDRUM</div>
               <div key="kat" className="kat" id="kat">
-                <img key="imgkat" id="imgkat" src="https://pbs.twimg.com/profile_images/1252272464228421639/bbtidIQN_400x400.jpg" alt="It's Kat!" />
+                <img key="imgkat" id="imgkat" src="../images/kat.jpg" alt="It's Kat!" />
               </div>
               <div key="display" className="display" id="display">{this.state.display}</div>
           </div>
