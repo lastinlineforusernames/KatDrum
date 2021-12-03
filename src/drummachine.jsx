@@ -2,44 +2,6 @@ import React from 'react';
 import Drumpad from './drumpad'
 import {audioFiles} from './App';
 
-// const audioFiles = [{
-//         id: 'Q',
-//         name: 'Hi Tom',
-//         url: './audio/808-tom-01.wav'
-//     }, {
-//         id: 'W',
-//         name: 'Lo Tom',
-//         url: './audio/808-tom-02.wav'
-//     }, {
-//         id: 'E',
-//         name: 'Crash',
-//         url: './audio/808-cymbal-01.wav'
-//     }, {
-//         id: 'A',
-//         name: 'Closed Hat',
-//         url: './audio/808-hat-01.wav'
-//     }, {
-//         id: 'S',
-//         name: 'Open Hat',
-//         url: './audio/808-hat-05.wav'
-//     }, {
-//         id: 'D',
-//         name: 'Clave',
-//         url: '/audio/808-clave-01.wav'
-//     }, {
-//         id: 'Z',
-//         name: 'Kick',
-//         url: '/audio/808-kick-30.wav'
-//     }, {
-//         id: 'X',
-//         name: 'Snare',
-//         url: '/audio/808-snare-01.wav'
-//     }, {
-//         id: 'C',
-//         name: 'Clap',
-//         url: '/audio/808-clap-01.wav'
-//     }];
-
 class DrumMachine extends React.Component {
     constructor(props) {
       super(props);
